@@ -41,9 +41,8 @@ Not a designer? Get some design inspiration for your grid 👇
 - Style your page.
 - Code follows Technigo’s code guidelines.
 - Site should have a header, a main news article, a grid of news articles.
-- Submit a link to your published webpage. [Länk i Canvas]
-- Contribute by helping others with this project on Stackoverflow.
-- [Lämna i Canvas]
+- Submit a link to your published webpage.
+- Contribute by helping others with this project on Stack Overflow.
 - If selected; demo your solution for your team.
 
 ## How to hand in the code 🎯
