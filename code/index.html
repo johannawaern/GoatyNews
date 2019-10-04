@@ -1,22 +1,234 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Project 2: The News Site</title>
-    <link rel="stylesheet" href="./style.css" />
-    <!-- dont forget the meta tag for responsiveness -->
-  </head>
-  <body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nixie+One|Patua+One|Open+Sans&display|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Goaty News</title>
+
+</head>
+
+<body>
+
+
     <header>
-      <!-- Some kind of logo and navbar -->
+        <img class="text-logo" src="images/logo_5_text.png" alt="logo">
+        <h1 class="company-name">Goaty News</h1>
+        <img class="logo" src="./images/logo_5.png" alt="logo">
+        <nav>
+            <div class="menu">
+                <a href="https://twitter.com/EverythingGoats" target="_blank">News</a>
+            </div>
+            <div class="menu">
+                <a href="https://twitter.com/EverythingGoats" target="_blank">More News</a>
+            </div>
+            <div class="menu">
+                <a href="https://en.wikipedia.org/wiki/Goat" target="_blank">About</a>
+            </div>
+        </nav>
     </header>
 
-    <section class="big-news">
-      <!-- The big news content -->
+    <section class="main-story" style="background-image: url(images/goats_windmill.jpg);">
+        <h2>
+            <span class="main-heading">Haag is getting greener every day</span>
+            <br>
+            <span class="sub-heading">All thanks to a family of goats</span>
+        </h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta fuga, quas assumenda tempore aspernatur sit maiores, veniam ipsum harum illo quibusdam. Error, recusandae laboriosam omnis veritatis repellendus dignissimos repellat fugit?
+            <br>
+            <a href="https://twitter.com/EverythingGoats" target="_blank">Read more</a>
+        </p>
     </section>
 
-    <section class="">
-      <!-- The other news  -->
+    <!--put in some sort of break here, maybe a line or so-->
+
+    <section class="container-1">
+        <div class="container-second-story">
+            <div class="second-story" style="background-image: url(images/goat_yoga_2.jpg);">
+                <!--make this span show up in tablet and mobile, correct style-->
+                <span class="second-intro">Read more about</span>
+                <h2>
+                    <span>Goat Yoga - it's finally here</span>
+                    </a>
+                </h2>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta fuga, quas assumenda tempore aspernatur sit maiores, veniam ipsum harum illo quibusdam. Error, recusandae laboriosam omnis veritatis repellendus dignissimos repellat fugit?
+                <br>
+                <a href="https://twitter.com/EverythingGoats" target="_blank">Read more</a>
+            </p>
+        </div>
+        <div class="container-third-story">
+            <div class="third-story" style="background-image: url(images/goats_1.jpg);">
+                <h2>
+                    <a href="https://twitter.com/EverythingGoats">
+                        <span class="tiny-intro">Read more about</span>
+                        <br>
+                        <span class="tiny-heading">The greatest goat</span>
+                    </a>
+                </h2>
+            </div>
+            <div class="third-story" style="background-image: url(images/goats_2.jpg);">
+                <h2>
+                    <a href="https://twitter.com/EverythingGoats">
+                        <span class="tiny-intro">Read more about</span>
+                        <br>
+                        <span class="tiny-heading">Amazing goat</span>
+                    </a>
+                </h2>
+            </div>
+        </div>
     </section>
-  </body>
+
+    <!--Span in h2 because I want only the text to have a background, not the whole block-->
+
+    <!--Put style background-image here to be able to style both .third-story at the same time, 
+        and keep content out of CSS-->
+
+
+    <section class="container-2">
+        <div class="tiny-story" style="background-image: url(images/goats_3.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Goats</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_4.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">More goats</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_5.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Different goat</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_6.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">My goat</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_7.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Cute goat</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_8.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">I love goats</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_9.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Hello goat</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_10.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Goaty McGoatyFace</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_11.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">What about goats?</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_12.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Meet my goat</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_6.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">A funny goat</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_3.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Mama goat</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_9.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Weird goat</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_2.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Goat-fever</span>
+                </a>
+            </h2>
+        </div>
+        <div class="tiny-story" style="background-image: url(images/goats_5.jpg);">
+            <h2>
+                <a href="https://twitter.com/EverythingGoats">
+                    <span class="tiny-intro">Read more about</span>
+                    <br>
+                    <span class="tiny-heading">Goat & babies</span>
+                </a>
+            </h2>
+        </div>
+    </section>
+
+    <footer>
+        <p>Design: Miss Wærn 2019</p>
+    </footer>
+</body>
+
 </html>
