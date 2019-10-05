@@ -1,5 +1,5 @@
 `PROJECT 2`
-My first Technigo Boot camp project
+My first Technigo Boot Camp Project
 
 # Build a News Site
 
