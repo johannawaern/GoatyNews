@@ -2,21 +2,27 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    max-width: 1500px;
     background-color: white;
 }
 
 header {
     background-color: rgba(255, 255, 255);
-    height: 70px;
     width: 100%;
+    position: fixed;
+}
+
+.header-content {
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
-    position: fixed;
+    max-width: 1500px;
+    padding: 10px 20px;
     box-sizing: border-box;
 }
+
+
+/* Position:fixed - takes the element out of the normal flow */
 
 .text-logo,
 .logo2 {
@@ -59,8 +65,8 @@ a:hover {
 /*** TABLET ***/
 
 @media (min-width:668px) and (max-width:1024px) {
-    header {
-        height: 50px;
+    .header-content {
+        padding: 5px 10px;
     }
     .company-name {
         display: none;
@@ -83,8 +89,8 @@ a:hover {
 /*** MOBILE ***/
 
 @media (max-width:667px) {
-    header {
-        height: 40px;
+    .header-content {
+        padding: 5px 10px;
     }
     .company-name {
         display: none;
@@ -108,6 +114,11 @@ a:hover {
         color: rgb(72, 72, 72);
         text-decoration: none;
     }
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1500px;
 }
 
 .main-story {
@@ -517,13 +528,18 @@ a:hover {
 
 footer {
     background-color: rgb(80, 80, 80);
-    height: 60px;
     color: white;
+    font-family: 'Nixie One', cursive;
+}
+
+.footer-content {
+    margin: 0 auto;
+    max-width: 1500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Nixie One', cursive;
-    padding: 0 40px;
+    padding: 10px 40px;
+    box-sizing: border-box;
 }
 
 .social-media {
@@ -545,8 +561,8 @@ footer {
 /*** TABLET ***/
 
 @media (min-width:668px) and (max-width:1024px) {
-    footer {
-        height: 50px;
+    .footer-content {
+        padding: 5px 15px 5px 30px;
     }
 }
 
@@ -555,8 +571,10 @@ footer {
 
 @media (max-width:667px) {
     footer {
-        height: 40px;
         font-size: 0.7rem;
+    }
+    .footer-content {
+        padding: 5px 5px 5px 10px;
     }
     .instagram,
     .facebook,
