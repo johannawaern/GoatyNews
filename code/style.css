@@ -558,6 +558,12 @@ footer {
         height: 40px;
         font-size: 0.7rem;
     }
+    .instagram,
+    .facebook,
+    .twitter {
+        height: 15px;
+        padding: 10px;
+    }
 }
 
 
